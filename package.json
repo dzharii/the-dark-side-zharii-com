@@ -9,7 +9,7 @@
     "dev": "preact watch",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
     "test": "jest ./tests",
-    "win-publish": "RMDIR /S /q .\\docs && robocopy .\\build .\\docs /mir && copy .\\CNAME .\\docs\\CNAME /y"
+    "win-publish": "win-publish.cmd"
   },
   "eslintConfig": {
     "parser": "@typescript-eslint/parser",
