@@ -3,10 +3,10 @@ html, body {
 	width: 100%;
 	padding: 0;
 	margin: 0;
-	background: #FAFAFA;
+	background: #181717;
 	font-family: 'Helvetica Neue', arial, sans-serif;
 	font-weight: 400;
-	color: #444;
+	color: rgb(209, 25, 25);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -18,6 +18,11 @@ html, body {
 #app {
 	height: 100%;
 }
+
+.videoResponsive__2l9Iw {
+
+}
+
 
 .home__5d1wS {
 	padding: 56px 20px;
@@ -85,4 +90,4 @@ html, body {
 }
 
 
-/*# sourceMappingURL=ssr-bundle.f949c.css.map*/
+/*# sourceMappingURL=ssr-bundle.6a3d9.css.map*/
