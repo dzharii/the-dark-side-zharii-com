@@ -1,8 +1,11 @@
 call RMDIR /S /q docs 
+echo %errorlevel%
 if %errorlevel% neq 0 exit /b %errorlevel%
+
 
 call robocopy build docs /mir
-if %errorlevel% neq 0 exit /b %errorlevel%
-
+echo %errorlevel%
+                 
 call copy CNAME docs\*.* /y
+echo %errorlevel%
 if %errorlevel% neq 0 exit /b %errorlevel%
