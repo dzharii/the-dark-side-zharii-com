@@ -2,6 +2,33 @@
 
 # the-dark-side
 
+The Darkest Website on the Web
+
+Flavored with Darth Sidious Quotes
+
+## [the-dark-side.zharii.com](https://the-dark-side.zharii.com/)
+
+## Deployment
+
+```sh
+
+git checkout -b darth-zharius/20210816-readme-update
+npm run build
+npm run win-publish
+git add --all && git commit -am "update README!" && git push
+
+...
+git checkout main
+
+```
+
+## Wanted: Contributors!
+
+Tasks:
+
+- [ ] Add nix-publish deployment script
+- [ ] CI/CD Pipeline
+
 ## CLI Commands
 *   `npm install`: Installs dependencies
 
