@@ -28,6 +28,8 @@ Tasks:
 
 - [ ] Add nix-publish deployment script
 - [ ] CI/CD Pipeline
+- [X] Port stars from todos\lightsaber\lightsaber.md
+- [ ] Port light saber from todos\lightsaber\lightsaber.md
 
 ## CLI Commands
 *   `npm install`: Installs dependencies

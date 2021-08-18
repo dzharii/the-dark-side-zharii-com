@@ -5,11 +5,13 @@ import Home from '../routes/home';
 import Profile from '../routes/profile';
 import NotFoundPage from '../routes/notfound';
 import Header from './header';
+import Background from './background';
 
 const App: FunctionalComponent = () => {
     return (
         <div id="preact_root">
             <Header />
+            <Background />
             <Router>
                 <Route path="/" component={Home} />
                 <Route path="/profile/" component={Profile} user="me" />
