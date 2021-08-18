@@ -15,7 +15,7 @@ Flavored with Darth Sidious Quotes
 git checkout -b darth-zharius/20210816-readme-update
 npm run build
 npm run win-publish
-git add --all && git commit -am "update README!" && git push
+git add --all && git commit -am "update assets!" && git push
 
 ...
 git checkout main
