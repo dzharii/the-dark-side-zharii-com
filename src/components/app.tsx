@@ -12,12 +12,14 @@ const App: FunctionalComponent = () => {
         <div id="preact_root">
             <Header />
             <Background />
-            <Router>
-                <Route path="/" component={Home} />
-                <Route path="/profile/" component={Profile} user="me" />
-                <Route path="/profile/:user" component={Profile} />
-                <NotFoundPage default />
-            </Router>
+            <div style={{ position: 'absolute' }}>
+                <Router>
+                    <Route path="/" component={Home} />
+                    <Route path="/profile/" component={Profile} user="me" />
+                    <Route path="/profile/:user" component={Profile} />
+                    <NotFoundPage default />
+                </Router>
+            </div>
         </div>
     );
 };
