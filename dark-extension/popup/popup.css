@@ -1,0 +1,35 @@
+body {
+    width: 500px;
+    background: black;
+    color: lightseagreen;
+}
+
+div.main {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    --color-left: #111;
+    --color-right: #311;
+    --color-outer: #222;
+    box-shadow:
+      inset 0 0 50px var(--color-outer),      /* inner white */
+      inset 20px 0 80px var(--color-left),   /* inner left magenta short */
+      inset -20px 0 80px var(--color-right),  /* inner right cyan short */
+      inset 20px 0 300px var(--color-left),  /* inner left magenta broad */
+      inset -20px 0 300px var(--color-right), /* inner right cyan broad */
+      0 0 50px var(--color-outer),            /* outer white */
+      -10px 0 80px var(--color-left),        /* outer left magenta */
+      10px 0 80px var(--color-right);         /* outer right cyan */
+  }
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: bisque;
+}
