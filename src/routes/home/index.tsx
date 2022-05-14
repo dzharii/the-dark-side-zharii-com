@@ -8,7 +8,6 @@ const Home: FunctionalComponent = () => {
             <h1>The Dark Side's Home</h1>
             <YouTubeEmbeded videoId='jZ6nF6JKtRc'/>
             <YouTubeEmbeded videoId='HC_5dSmKbG0'/>
-            <YouTubeEmbeded videoId='qvWv3uosN9E'/>
         </div>
     );
 };
